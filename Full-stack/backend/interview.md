@@ -279,3 +279,15 @@ db.collection.aggregate([
 *   **Durability:** Once committed, transaction effects persist even in a system crash.
 
 
+### 7. Second Highest Element in SQl 
+```sql
+SELECT *
+FROM table_name
+ORDER BY column_name DESC
+LIMIT 1 OFFSET 1;
+```
+
+
+### 8. NodeJs Clustering
+
+### 9. N+1 query problem
